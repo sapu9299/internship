@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            
+            </title>
+            <!-- <link rel="stylesheet" href="style.css"> -->
+                      <script src="http://kit.fontawesome.com/a076d05399.js"></script>
+
+                      <style>
+                          .tab{
+
+                              float:left;
+                              height:auto;
+                              width:auto;
+                              /* background-color: crimson; */
+                          }
+.tab a
+{
+display: block;
+width:auto;
+ color:grey;
+ float: left;
+ 
+}
+
+.tab li{
+padding:15px;
+
+}
+
+.top_navbar {
+
+height:auto;
+overflow:auto;
+
+}
+ .top_navbar image{
+
+    height:20px;
+    width:50px;
+ }
+
+.top_navbar ul{
+margin:0;
+padding:0;
+list-style:none;
+line-height:60px;
+
+}
+
+.top_navbar li{
+    list-style: none;
+    float:left;
+    left-spacing:0.5px;
+    
+}
+
+.first  li a{
+background-color:blueviolet;
+
+}
+
+
+.second li{
+ text-align:center;
+  float: center;
+  left-spacing:2px;
+ 
+
+}
+.fourth li{
+    float:right;
+    padding-right:20px;
+    padding-bottom: 0;
+
+}
+.fourth li a{
+    float:right;
+}
+
+.searchbox{
+background-color: chocolate;
+height:300px;
+width:100%
+float:left;
+position-left:20px;
+}
+
+.searchbox input{
+    border-radius: 50px;
+    border: 3px solid grey;
+    background-image: url('search.png');
+    background-position: 5px 5px;
+    background-repeat: no-repeat;
+    padding: 12px;
+}
+h4{
+    padding:0 0 0 30px;
+}
+
+
+table{
+ font-family:lato;
+ border-collapse:collapse;
+ width:60%;
+ text-align:center;
+ margin-top:80px;
+}
+
+.searchbox th{
+    font-size:20px;
+    text-align:left;
+    
+}
+
+.searchbox td{
+font-size:15px;
+text-align:left;
+padding:5px;
+}
+
+.last{
+
+    background-color: darkgreen;
+    height: 300px;
+    width:100%;
+    
+}
+
+.details{
+    float:left;
+    width:60%;
+    height:100%;
+    background-color:red;
+    }
+
+    .image{
+        float:left;
+        background-color: darkkhaki;
+    }
+    .form-input{
+     height:150px;
+    width:250px;
+    padding: 20px 20px 20px 20px;
+    float:right;
+    align-items: center;
+    }
+
+
+
+</style>
+    </head>
+         <body>
+         
+             <div class="top_navbar">
+             <div class="frst">
+                 <ul>
+                 <li><a href="#"><i class="fa fa-bars"></i></a><li>
+                 </div>
+                 <div class="second">
+                <li><img src="download.png"></li>
+                
+                
+                
+                <li><b>BIZLERS TECHNOLOGIES</b></li></div>
+                <div class="fourth">
+                
+                <li><a href="#"><i class="fa fa-user-circle"></i></a></li>
+                <li>RENEE MCKELVEY
+                  <ul><li>account setting</li></ul>
+                </li>
+              </div>
+                </ul>
+            </div>
+
+                <div class="tab">
+               <li> <a href="#"><i class="fa fa-search"></i></a></li>
+               <li> <a href="#"><i class="fa fa-home"></i></a></li>
+                <li><a href="#"><i class="fa fa-industry"></i></a></li>
+                <li><a href="#"><i class="fa fa-users"></i></a></li>
+                <li><a href="#"><i class="fa fa-cog"></i></a></li>
+                </div>
+    
+
+
+            </ul>
+            
+
+            <div class="searchbox">
+                <h4>User list</h4>
+                <div class="box">
+                <input type="text" name="box"placeholder="search">
+                
+            
+                     </div>
+                     
+                     <table align="center"border=1 cellspacing=0>
+                        <tr>
+                            <th>Name</th>
+                            <th>Role</th>
+                            <th>Actions</th>
+                        </tr>
+                        <tr>
+                        <td>Ada Lovelace</td>
+                        <td>Admin</td>
+                        <td><a href="#"><i class="fa fa-magic"></i></a></td>
+                        </tr>
+
+                        <tr>
+                            <td>Grace Hopper</td>
+                            <td>Developer</td>
+                            <td><a href="#"><i class="fa fa-magic"></i></a></td></td>
+                            </tr>
+
+                            <tr>
+                                <td>Margeret Hamillon</td>
+                                <td>QA</td>
+                                <td><a href="#"><i class="fa fa-magic"></i></a></td>
+                                </tr>
+
+                                <tr>
+                                    <td>Joan clarke</td>
+                                    <td>manager</td>
+                                    <td><a href="#"><i class="fa fa-magic"></i></a></td>
+                                    </tr>
+                                 </table>
+                                </div> 
+ 
+<div class="last">
+    <div class="details">
+        <h3>New User Details</h3>
+        <table>
+            <tr>
+        <td><input type="text" placeholder="Enter NAME" name="Username" required></b><br></td>
+        <td><input type="text" placeholder="Enter Email" name="Email" required></b><br></td>
+        </tr>
+        <tr>
+            <td><input type="text" placeholder="Enter NAME" name="Username" required></b><br></td>
+        <td><input type="text" placeholder="Enter Email" name="Email" required></b><br></td>
+        </tr>
+        <tr>
+            <td><input type="text" placeholder="Role" ><i class="fa fa-caret-down"></i></b><br></td>
+
+        </table>
+        </div>
+        
+
+        <div class="image">
+            <!-- <input class="file-upload-input" type="file" onchanges="readURL(this);"accept="image"/>
+            <div class="file-upload-content">
+                <img class="file-upload-image" src="#" alt="your image"/>
+                <div class="image-title-wrap">
+                    </div>
+                    </div>
+                    </div> -->
+
+                    <div class="form-input">
+                        <input type="file" id="file-ip-1" accept="image/*" onchange="showPreview(event);">
+                        <div class="preview">
+                            <img id="file-ip-1-preview">
+                            <label for="file-ip-1">select</label>
+                            </div>
+                            </div>
+                            </div>
+        </div>
+
+
+
+</div>
+
+
+    
+
+</body>
+    </html>
+
